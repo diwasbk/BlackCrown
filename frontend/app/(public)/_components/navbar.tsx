@@ -35,7 +35,8 @@ export default function NavBar() {
                     className="object-contain"
                   />
                 </div>
-                <span className="text-lg font-bold text-yellow-400" style={{
+                <span className="text-lg font-bold text-yellow-400"
+                  style={{
                     fontFamily: "var(--font-bebas-neue)",
                     letterSpacing: "0.1em",
                   }}>

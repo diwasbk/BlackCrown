@@ -1,4 +1,6 @@
 "use client";
+import CTASection from "../_components/cta-section";
+import Footer from "../_components/footer";
 import NavBar from "../_components/navbar";
 import PackageSection from "../_components/package-section";
 import FeatureSection from "./_components/feature-section";
@@ -11,6 +13,8 @@ export default function HomePage() {
       <HeroSection/>
       <FeatureSection/>
       <PackageSection/>
+      <CTASection/>
+      <Footer/>
     </div>
   );
 }
