@@ -11,8 +11,8 @@ export default function NavBar() {
   };
 
   const navLinks = [
-    { href: "/packages", label: "Packages" },
     { href: "/about", label: "About" },
+    { href: "/packages", label: "Packages" },
     { href: "/portfolio", label: "Portfolio" },
     { href: "/social-media", label: "Social Media" },
     { href: "/contact", label: "Contact" },

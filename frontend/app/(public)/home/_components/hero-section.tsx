@@ -62,7 +62,7 @@ export default function HeroSection() {
                   className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight uppercase tracking-tighter"
                   style={{
                     fontFamily: "var(--font-bebas-neue)",
-                    letterSpacing: "0em",
+                    letterSpacing: "0em"
                   }}
                 >
                   <span className="block text-white">

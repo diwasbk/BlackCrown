@@ -28,7 +28,7 @@ export default function PackageSection() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="w-full bg-black pb-12 mt-20 overflow-hidden">
+    <div ref={sectionRef} className="w-full bg-black pb-12 overflow-hidden">
       {/* Packages Section */}
       <section className="relative">
         {/* Background Ambient Glows */}

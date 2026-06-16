@@ -5,9 +5,9 @@ import PackageSection from "../_components/package-section";
 
 export default function Page() {
     return (
-        <div>
+        <div className="bg-black">
             <NavBar/>
-            <PackageSection/>
+            <div className="mt-30"><PackageSection /></div>
             <CTASection/>
             <Footer/>
         </div>
