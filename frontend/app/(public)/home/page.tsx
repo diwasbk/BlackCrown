@@ -2,7 +2,7 @@
 import CTASection from "../_components/cta-section";
 import Footer from "../_components/footer";
 import NavBar from "../_components/navbar";
-import PackageSection from "../_components/package-section";
+import PackageSection from "../packages/_components/package-section";
 import FeatureSection from "./_components/feature-section";
 import HeroSection from "./_components/hero-section";
 

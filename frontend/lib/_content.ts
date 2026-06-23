@@ -1,9 +1,14 @@
 export const packages = [
   {
+    slug: "amateur",
     name: "Amateur",
     services: "5 Services",
     startingPrice: "$750",
     price: "$700.00",
+    // New fields
+    tagline: "Essential Property Coverage",
+    description: "A solid foundation for standard listings requiring professional visuals and essential marketing assets.",
+    deliveryTime: "24-48 Hours",
     features: [
       "Professional MLS Photography",
       "Drone Photography (Aerial Stills)",
@@ -14,10 +19,15 @@ export const packages = [
     highlighted: false,
   },
   {
+    slug: "core",
     name: "Core",
     services: "6 Services",
     startingPrice: "$3,000",
     price: "$1,000.00",
+    // New fields
+    tagline: "The Balanced Market Standard",
+    description: "Our most popular choice, providing a robust mix of photo, video, and web presence to maximize exposure.",
+    deliveryTime: "48 Hours",
     features: [
       "Professional MLS Photography",
       "Drone Photography (Aerial Stills)",
@@ -29,10 +39,15 @@ export const packages = [
     highlighted: false,
   },
   {
+    slug: "dominance",
     name: "Dominance",
     services: "8 Services",
     startingPrice: "$4,500",
     price: "$1,300.00",
+    // New fields
+    tagline: "Total Market Authority",
+    description: "A comprehensive media suite designed to build agent brand equity and command attention in competitive luxury markets.",
+    deliveryTime: "48-72 Hours",
     features: [
       "Professional MLS Photography",
       "3D Floor Plans and Measurements",
@@ -46,10 +61,15 @@ export const packages = [
     highlighted: true,
   },
   {
+    slug: "custom",
     name: "Custom",
     services: "5+ Services",
     startingPrice: "Custom",
     price: "CUSTOM",
+    // New fields
+    tagline: "Tailored Production Strategy",
+    description: "Work directly with our team to architect a bespoke content strategy perfectly suited to your unique property portfolio.",
+    deliveryTime: "Custom Timeline",
     features: [
       "Professional MLS Photography",
       "Drone Photography (Aerial Stills)",
