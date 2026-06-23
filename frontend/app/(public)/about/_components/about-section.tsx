@@ -78,14 +78,12 @@ export default function AboutSection() {
 
                 <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
                     {/* Badge */}
-                    <div
-                        className={`inline-flex items-center space-x-2 bg-yellow-400/10 border border-yellow-400/30 rounded-full px-4 py-2 mx-auto transition-all duration-700 ease-out transform ${isMounted ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
-                            }`}
-                    >
-                        <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                        <span className="text-sm font-semibold text-yellow-400 uppercase tracking-wider">
+                    <div className="inline-flex items-center gap-3 mb-4 sm:mb-6">
+                        <div className={`w-2 h-2 bg-yellow-400 rounded-full ${isMounted ? "animate-ping" : ""}`} />
+                        <span className="text-xs font-semibold text-yellow-400 uppercase tracking-widest">
                             Behind The Lens
                         </span>
+                        <div className={`w-2 h-2 bg-yellow-400 rounded-full ${isMounted ? "animate-ping" : ""}`} />
                     </div>
 
                     {/* Headline */}
